@@ -10,13 +10,6 @@ module.exports = {
       },
       idMusic: {
         type: Sequelize.INTEGER,
-        // sebagai forenkey tabel user
-        references: {
-          model: 'music',
-          key: 'id'
-        },
-        onDelete: "CASCADE",
-        onUpdate: "CASCADE"
       },
       idUser: {
         type: Sequelize.INTEGER

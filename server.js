@@ -8,7 +8,7 @@ const cors = require('cors')
 const app = express()
 
 // port yang digunakan untuk start
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000
 
 // digunakan untuk menampilkan isi post data
 app.use(express.json())
